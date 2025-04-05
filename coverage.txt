@@ -1,0 +1,26 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.9, pytest-8.3.5, pluggy-1.5.0
+rootdir: /Users/ps/Desktop/All/VIT/Projects/Osdag
+plugins: cov-6.1.1
+collected 0 items / 1 error
+
+WARNING: Failed to generate report: No data to report.
+
+
+==================================== ERRORS ====================================
+________ ERROR collecting bolted_lap_joint_test/tests/test_lap_joint.py ________
+ImportError while importing test module '/Users/ps/Desktop/All/VIT/Projects/Osdag/bolted_lap_joint_test/tests/test_lap_joint.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Users/ps/miniconda3/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+bolted_lap_joint_test/tests/test_lap_joint.py:4: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.9-final-0 _______________
+
+=========================== short test summary info ============================
+ERROR bolted_lap_joint_test/tests/test_lap_joint.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.12s ===============================
